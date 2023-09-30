@@ -1,0 +1,59 @@
+#quattro {
+  background-color: black;
+}
+#quattro .logo {
+  width: 13%;
+}
+#quattro .menu ul li {
+  list-style: none;
+}
+#quattro .menu ul li a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 25px 10px;
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  position: relative;
+}
+#quattro .menu ul li a:hover {
+  color: #ff0000;
+}
+#quattro .menu ul li .home:hover {
+  opacity: 1;
+  visibility: visible;
+}
+#quattro .menu ul li .home .dropped-1 {
+  width: 40%;
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+#quattro .menu ul li .home .dropped-1 ul {
+  background-color: grey;
+  top: 100%;
+}
+#quattro .icon a {
+  text-decoration: none;
+  position: relative;
+}
+#quattro .icon a i {
+  color: white;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+}
+#quattro .icon a i:hover {
+  color: #ff0000;
+}
+#quattro .icon a span {
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 3px 10px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
